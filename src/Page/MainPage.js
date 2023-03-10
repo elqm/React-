@@ -1,6 +1,6 @@
 import Header from "../Component/Header";
 import Menubar from "../Component/Menubar";
-import Content from "../Component/Content";
+import ArticleContent from "../Component/ArticleContent";
 import Footer from "../Component/Footer";
 
 function MainPage() {
@@ -9,7 +9,7 @@ function MainPage() {
         <div>
             <Header />
             <Menubar />
-            <Content />
+            <ArticleContent />
             <Footer />
         </div>
     );
